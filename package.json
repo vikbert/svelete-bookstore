@@ -1,0 +1,26 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "run-p dev:client dev:server",
+    "dev:client": "rollup -c -w",
+    "dev:server": "json-server --watch db.json --port 3333",
+    "start": "sirv public --single --dev --port"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "json-server": "^0.16.2",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^2.3.4",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^6.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0"
+  },
+  "dependencies": {
+    "sirv-cli": "^1.0.0",
+    "svelte-routing": "^1.4.2"
+  }
+}
