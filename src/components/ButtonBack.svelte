@@ -7,6 +7,7 @@
 <style>
   button {
     text-transform: capitalize;
+    margin-bottom: 3rem;
   }
 </style>
 

@@ -13,7 +13,6 @@
     list-style: none;
     max-width: 100%;
     padding: 0;
-    margin-top: 20px;
   }
 </style>
 
