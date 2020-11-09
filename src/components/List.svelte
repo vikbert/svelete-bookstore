@@ -1,15 +1,10 @@
 <script>
   import { onMount } from 'svelte';
   import { httpGet } from '../http/bookClient';
-
   import ButtonBack from './ButtonBack.svelte';
   import Cover from './Cover.svelte';
 
   let books = [];
-  const isProd = __myapp.env.isProd;
-  const apiUrl = __myapp.env.API_URL;
-
-  console.log(isProd, apiUrl);
 
   onMount(async function () {
     const { ok, data } = await httpGet('?_sort=createdAt&_order=desc');
