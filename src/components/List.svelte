@@ -6,12 +6,14 @@
   import Cover from './Cover.svelte';
 
   let books = [];
+  const isProd = __myapp.env.isProd;
+  const apiUrl = __myapp.env.API_URL;
+
+  console.log(isProd, apiUrl);
 
   onMount(async function () {
     const { ok, data } = await httpGet('?_sort=createdAt&_order=desc');
     books = data;
-
-    console.table(books);
   });
 </script>
 

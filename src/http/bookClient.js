@@ -1,6 +1,6 @@
-export const bookApiRoot = 'http://localhost:3333/books';
-// export const bookApiRoot =
-//   'https://my-json-server.typicode.com/vikbert/jsonfaker/books';
+const API_URL = __myapp.env.isProd
+  ? __myapp.env.API_URL
+  : 'http://localhost:3333/books';
 
 export function httpGet(path) {
   return request(path, 'GET');
@@ -15,7 +15,7 @@ export function httpPost(path, data) {
 }
 
 async function request(path, method, data) {
-  const res = await fetch(bookApiRoot + path, {
+  const res = await fetch(API_URL + path, {
     method,
     headers: {
       'Content-Type': 'application/json',

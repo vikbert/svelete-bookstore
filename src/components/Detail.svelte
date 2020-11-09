@@ -12,7 +12,6 @@
     const { data } = await httpGet('/' + bookId);
 
     book = data;
-    console.table(book);
   });
 </script>
 
@@ -34,9 +33,6 @@
     display: grid;
     grid-template-columns: minmax(100%, 10rem);
     grid-template-rows: minmax(220%, 16rem);
-  }
-  .hero-content {
-    text-align: center;
   }
 </style>
 
