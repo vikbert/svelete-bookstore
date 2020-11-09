@@ -10,11 +10,12 @@
     font-weight: var(--typeWeightBold);
   }
   .medium {
-    font-size: var(--typeSizeMedium);
+    font-size: 24px;
+    color: #333;
     margin-bottom: var(--spacingMedium);
   }
   .large {
-    font-size: var(--typeSizeXLarge);
+    font-size: 36px;
     margin-bottom: var(--spacingXLarge);
   }
 </style>

@@ -27,10 +27,15 @@
     --bgDark: #d7480b;
     --bgLight: #fb9c61;
   }
-  .book--variation-2 {
+  .book--variation-3 {
     --bg: #76c267;
     --bgDark: #57b356;
     --bgLight: #a6e69a;
+  }
+  .book--variation-2 {
+    --bg: #b3b1b1ca;
+    --bgDark: #797777;
+    --bgLight: #7c7a7a;
   }
 
   .book--interactive {
@@ -85,13 +90,14 @@
     transform: translate(0.0625rem, -0.3125rem) skew(0, -5deg) scaleX(1.02);
   }
   .title {
+    font-size: 30px;
     font-weight: var(--typeWeightBold);
     line-height: var(--typeLineHeightTight);
-    margin: 5rem 0 var(--spacingMedium) calc(10% + var(--spacingSmall));
+    margin: 3rem 0 var(--spacingMedium) calc(10% + var(--spacingSmall));
   }
   .author {
     letter-spacing: 0.25em;
-    margin-left: calc(13% + var(--spacingSmall));
+    margin-left: calc(10% + var(--spacingSmall));
   }
 </style>
 
@@ -116,7 +122,7 @@
       class="cover"
       style={isValidUrl(book.cover) ? 'background-image: url(' + book.cover + ')' : ''}>
       <header>
-        <h2 class="title">{book.title || ''}</h2>
+        <div class="title">{book.title || ''}</div>
       </header>
       <div class="author">{book.author || ''}</div>
     </div>

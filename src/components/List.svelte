@@ -25,7 +25,7 @@
   <ButtonBack path={'/create'} text={'Add a new book'} />
   <div class="grid-container">
     {#each books as book}
-      <Cover {book} onClick={() => true} />
+      <Cover {book} />
     {/each}
   </div>
 </div>

@@ -14,7 +14,7 @@
       "author": "Ray Bradbury",
       "cover": "",
       "about": "Enter a dystopian future where books with ideas are dangerous, controlled and burned.",
-      "variation": 1
+      "variation": 0
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "author": "John Steinbeck",
       "cover": "",
       "about": "Thousands set out from the dust bowl to California in search of better fortunes",
-      "variation": 2
+      "variation": 0
     },
     {
       "id": 4,
@@ -39,14 +39,14 @@
       "author": "Hermann Melville",
       "cover": "",
       "about": "Man hunts whale with a vengeance. In the end, he's the last man stand. I guess he won.",
-      "variation": 1
+      "variation": 0
     },
     {
       "title": "clean coder",
       "author": "Martin fowler",
       "cover": "",
       "about": "this is a descripton",
-      "variation": 1,
+      "variation": 0,
       "favorite": true,
       "id": 6
     }

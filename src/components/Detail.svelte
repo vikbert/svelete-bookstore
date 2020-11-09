@@ -42,7 +42,7 @@
     <ButtonBack path="/" text="back to Home" />
     <div class="detail">
       <div class="cover">
-        <Cover {book} interactive={false} onClick={() => null} />
+        <Cover {book} interactive={false} />
       </div>
       <div class="about">
         <Header size="large">{book.title}</Header>
