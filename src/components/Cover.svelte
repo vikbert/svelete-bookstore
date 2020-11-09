@@ -34,7 +34,7 @@
   }
   .book--variation-2 {
     --bg: #b3b1b1ca;
-    --bgDark: #797777;
+    --bgDark: #4e4d4d;
     --bgLight: #7c7a7a;
   }
 

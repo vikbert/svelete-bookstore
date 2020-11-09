@@ -1,7 +1,18 @@
 <script>
+  import { onMount } from 'svelte';
+  import { httpGet } from '../http/bookClient';
+
   import ButtonBack from './ButtonBack.svelte';
   import Cover from './Cover.svelte';
-  export let books = [];
+
+  let books = [];
+
+  onMount(async function () {
+    const { ok, data } = await httpGet('/books?_sort=createdAt&_order=desc');
+    books = data;
+
+    console.table(books);
+  });
 </script>
 
 <style>

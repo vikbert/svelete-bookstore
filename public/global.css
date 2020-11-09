@@ -35,3 +35,6 @@ main {
 button {
   height: auto !important;
 }
+.error {
+  color: red;
+}

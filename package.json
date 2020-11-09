@@ -6,7 +6,7 @@
     "dev": "run-p dev:client dev:server",
     "dev:client": "rollup -c -w",
     "dev:server": "json-server --watch db.json --port 3333",
-    "start": "sirv public --single --dev --port"
+    "start": "sirv public --single --dev"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^14.0.0",

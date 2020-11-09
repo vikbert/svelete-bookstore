@@ -19,8 +19,8 @@
 <style>
   .detail {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(40vw, 20rem));
-    grid-template-rows: minmax(64vw, 32rem) auto;
+    grid-template-columns: repeat(auto-fill, minmax(40%, 20rem));
+    grid-template-rows: minmax(64%, 32rem) auto;
     gap: var(--spacingXLarge);
   }
   .cover {
