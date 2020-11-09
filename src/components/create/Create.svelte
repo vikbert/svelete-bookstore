@@ -55,7 +55,7 @@
   .cover {
     display: grid;
     grid-template-columns: minmax(100%, 10rem);
-    grid-template-rows: minmax(220%, 16rem);
+    grid-template-rows: minmax(200%, 16rem);
   }
 </style>
 
