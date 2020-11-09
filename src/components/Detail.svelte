@@ -9,7 +9,7 @@
   let book = null;
 
   onMount(async function () {
-    const { data } = await httpGet('/books/' + bookId);
+    const { data } = await httpGet('/' + bookId);
 
     book = data;
     console.table(book);
@@ -35,11 +35,17 @@
     grid-template-columns: minmax(100%, 10rem);
     grid-template-rows: minmax(220%, 16rem);
   }
+  .hero-content {
+    text-align: center;
+  }
 </style>
 
 <section class="hero is-primary">
-  <div class="flex-centered">
-    <h3>Book Details</h3>
+  <div class="hero-content">
+    {#if book}
+      <h3>{book.title}</h3>
+      <span>{book.author}</span>
+    {/if}
   </div>
 </section>
 <section class="container">
@@ -49,14 +55,9 @@
     <ButtonBack path="/" text="back to Home" />
     <div class="detail">
       <div class="about">
-        <Header size="large">{book.title}</Header>
+        <Header>{book.title}</Header>
         <h4>{book.author}</h4>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit id
-          quibusdam pariatur eius. Eaque, ut odio ab deleniti, odit fugit
-          exercitationem voluptatibus doloribus, nobis quas repellendus aut
-          incidunt minus ipsum.
-        </p>
+        <p>{book.about}</p>
       </div>
       <div class="preview">
         <div class="cover">

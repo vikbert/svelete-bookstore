@@ -29,7 +29,7 @@
       return;
     }
 
-    const res = await httpPost('/books', data);
+    const res = await httpPost('/', data);
     console.log(res);
     if (res.ok) {
       navigate('/');

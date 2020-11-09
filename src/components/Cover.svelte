@@ -3,7 +3,12 @@
   export let book = {};
   export let interactive = true;
 
+  const hasCover = isValidUrl(book.cover);
   function isValidUrl(url) {
+    if (url.length === 0) {
+      return false;
+    }
+
     return url && /http.+\.(jpg|png|gif)$/.test(url);
   }
 </script>
@@ -106,25 +111,25 @@
     href={'/books/' + book.id}
     use:links
     class="book book--interactive book--variation-{book.variation}
-    {isValidUrl(book.cover) ? 'book--cover' : 'book--no-cover'}">
+    {hasCover ? 'book--cover' : 'book--no-cover'}">
     <span
       class="cover"
-      style={isValidUrl(book.cover) ? 'background-image: url(' + book.cover + ')' : ''}>
-      <span class="title">{book.title || ''}</span>
-      <span class="author">{book.author || ''}</span>
+      style={hasCover ? 'background-image: url(' + book.cover + ')' : ''}>
+      <span class="title">{!hasCover ? book.title : ''}</span>
+      <span class="author">{!hasCover ? book.author : ''}</span>
     </span>
   </a>
 {:else}
   <div
     class="book book--variation-{book.variation}
-    {isValidUrl(book.cover) ? 'book--cover' : 'book--no-cover'}">
+    {hasCover ? 'book--cover' : 'book--no-cover'}">
     <div
       class="cover"
-      style={isValidUrl(book.cover) ? 'background-image: url(' + book.cover + ')' : ''}>
+      style={hasCover ? 'background-image: url(' + book.cover + ')' : ''}>
       <header>
-        <div class="title">{book.title || ''}</div>
+        <div class="title">{!hasCover ? book.title : ''}</div>
       </header>
-      <div class="author">{book.author || ''}</div>
+      <div class="author">{!hasCover ? book.author : ''}</div>
     </div>
   </div>
 {/if}

@@ -1,4 +1,6 @@
-export const bookApiRoot = 'http://localhost:3333';
+export const bookApiRoot = 'http://localhost:3333/books';
+// export const bookApiRoot =
+//   'https://my-json-server.typicode.com/vikbert/jsonfaker/books';
 
 export function httpGet(path) {
   return request(path, 'GET');

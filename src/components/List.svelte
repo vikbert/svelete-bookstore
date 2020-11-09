@@ -8,7 +8,7 @@
   let books = [];
 
   onMount(async function () {
-    const { ok, data } = await httpGet('/books?_sort=createdAt&_order=desc');
+    const { ok, data } = await httpGet('?_sort=createdAt&_order=desc');
     books = data;
 
     console.table(books);
@@ -28,15 +28,20 @@
 </style>
 
 <section class="hero is-primary">
-  <div class="flex-centered">
-    <h3>Book list-style</h3>
+  <div class="hero-content">
+    <h3>Top Coding Book</h3>
+    <span>The best books for programmers</span>
   </div>
 </section>
 <div class="container">
   <ButtonBack path={'/create'} text={'Add a new book'} />
-  <div class="grid-container">
-    {#each books as book}
-      <Cover {book} />
-    {/each}
-  </div>
+  {#if books.length === 0}
+    ... loading data
+  {:else}
+    <div class="grid-container">
+      {#each books as book}
+        <Cover {book} />
+      {/each}
+    </div>
+  {/if}
 </div>

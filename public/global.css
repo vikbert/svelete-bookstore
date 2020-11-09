@@ -31,7 +31,9 @@ main {
 .hero {
   margin: 0 0 3rem 0 !important;
 }
-
+.hero-content {
+  text-align: center;
+}
 button {
   height: auto !important;
 }

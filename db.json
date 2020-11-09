@@ -1,186 +1,85 @@
 {
   "books": [
     {
-      "id": 1,
+      "id": "orownkiel",
+      "title": "The Pragmatic Programmer",
+      "author": "David Thomas & Andrew Hunt",
+      "cover": "https://uploads-ssl.webflow.com/5f280c5b57d2edfcbbb057ea/5f2960f40b95b440c7d4a732_1.jpg",
+      "about": "The Pragmatic Programmer is one of those rare tech books you’ll read, re-read, and read again over the years. Whether you’re new to the field or an experienced practitioner, you’ll come away with fresh insights each and every time.\n\nDave Thomas and Andy Hunt wrote the first edition of this influential book in 1999 to help their clients create better software and rediscover the joy of coding. These lessons have helped a generation of programmers examine the very essence of software development, independent of any particular language, framework, or methodology, and the Pragmatic philosophy has spawned hundreds of books, screencasts, and audio books, as well as thousands of careers and success stories.",
+      "variation": 0,
+      "createdAt": 1604940943571
+    },
+    {
+      "id": "mpijls7h1",
       "title": "Clean Code",
-      "author": "Louisa May Alcott",
-      "cover": "",
-      "about": "Sisters learn to live in gratitude for each other.",
-      "createdAt": 1604926229789,
-      "variation": 0
-    },
-    {
-      "id": 2,
-      "title": "Domain Driven Design",
-      "author": "Ray Bradbury",
-      "cover": "",
-      "about": "Enter a dystopian future where books with ideas are dangerous, controlled and burned.",
-      "createdAt": 1604926229911,
-      "variation": 0
-    },
-    {
-      "id": 3,
-      "title": "Agile Software Development",
-      "author": "John Steinbeck",
-      "cover": "",
-      "about": "Thousands set out from the dust bowl to California in search of better fortunes",
-      "createdAt": 1604926229920,
-      "variation": 0
-    },
-    {
-      "id": 4,
-      "title": "To Kill a Mocking Bird",
-      "author": "Harper Lee",
-      "cover": "https://i.imgur.com/BPmn7bUm.jpg",
-      "about": "A girl learns to trust the wisdom of her father and not be dismayed by the prejudice around here.",
+      "author": "Robert C. Martin",
+      "cover": "https://uploads-ssl.webflow.com/5f280c5b57d2edfcbbb057ea/5f29609c7a11aa6a428083c3_2.jpg",
+      "about": "Clean Code is divided into three parts. The first describes the principles, patterns, and practices of writing clean code. The second part consists of several case studies of increasing complexity. Each case study is an exercise in cleaning up code—of transforming a code base that has some problems into one that is sound and efficient. The third part is the payoff: a single chapter containing a list of heuristics and “smells” gathered while creating the case studies. The result is a knowledge base that describes the way we think when we write, read, and clean code.",
       "variation": 0,
-      "createdAt": 1604926229931,
-      "favorite": true
+      "createdAt": 1604941038095
     },
     {
-      "id": 5,
-      "title": "Moby Dick",
-      "author": "Hermann Melville",
-      "cover": "",
-      "about": "Man hunts whale with a vengeance. In the end, he's the last man stand. I guess he won.",
-      "createdAt": 1604926229951,
-      "variation": 0
-    },
-    {
-      "title": "clean coder",
-      "author": "Martin fowler",
-      "cover": "",
-      "about": "this is a descripton",
+      "id": "2xnjks6ao",
+      "title": "Code Complete",
+      "author": "Seve McConnel",
+      "cover": "https://uploads-ssl.webflow.com/5f280c5b57d2edfcbbb057ea/5f29606f8540b0caf0950f9f_3.jpg",
+      "about": "Widely considered one of the best practical guides to programming, Steve McConnell’s original CODE COMPLETE has been helping developers write better software for more than a decade. Now this classic book has been fully updated and revised with leading-edge practices—and hundreds of new code samples—illustrating the art and science of software construction.",
       "variation": 0,
-      "favorite": true,
-      "createdAt": 1604926229981,
-      "id": 6
+      "createdAt": 1604941132435
     },
     {
-      "id": "un1i5ld5r",
+      "id": "szl04zrb8",
+      "title": "Refactoring",
+      "author": "Martin Fowler",
+      "cover": "https://uploads-ssl.webflow.com/5f280c5b57d2edfcbbb057ea/5f29603e1d61e17793bd5eac_4.jpg",
+      "about": "As the application of object technology–particularly the Java programming language–has become commonplace, a new problem has emerged to confront the software development community. Significant numbers of poorly designed programs have been created by less-experienced developers, resulting in applications that are inefficient and hard to maintain and extend. Increasingly, software system professionals are discovering just how difficult it is to work with these inherited, non-optimal applications.",
+      "variation": 0,
+      "createdAt": 1604941169648
+    },
+    {
+      "id": "ysf44sqrk",
+      "title": "Head First Design Patterns",
+      "author": "Eric Freeman",
+      "cover": "https://uploads-ssl.webflow.com/5f280c5b57d2edfcbbb057ea/5f295ff6690b14114addeff7_5.jpg",
+      "about": "shows you the tried-and-true, road-tested patterns used by developers to create functional, elegant, reusable, and flexible software. By the time you finish this book, you’ll be able to take advantage of the best design practices and experiences of those who have fought the beast of software design and triumphed.",
+      "variation": 0,
+      "createdAt": 1604941234264
+    },
+    {
+      "id": "di82zxdiy",
+      "title": "Clean Coder",
+      "author": "Robert C. Martin",
+      "cover": "https://uploads-ssl.webflow.com/5f280c5b57d2edfcbbb057ea/5f293146a7c942b3dfbf76da_7.jpg",
+      "about": "Programmers who endure and succeed amidst swirling uncertainty and nonstop pressure share a common attribute: They care deeply about the practice of creating software. They treat it as a craft. They are professionals.",
+      "variation": 0,
+      "createdAt": 1604941278672
+    },
+    {
+      "id": "cu41n4e6x",
+      "title": "Working Effectively with Legacy Code",
+      "author": "Michael Feathers",
+      "cover": "https://uploads-ssl.webflow.com/5f280c5b57d2edfcbbb057ea/5f29310996ccc6c1d6a565b3_8.jpg",
+      "about": "This book also includes a catalog of twenty-four dependency-breaking techniques that help you work with program elements in isolation and make safer changes.",
+      "variation": 0,
+      "createdAt": 1604941356011
+    },
+    {
+      "id": "uo18eknb9",
       "title": "your book title",
       "author": "your book author",
       "cover": "",
       "about": "",
       "variation": 0,
-      "createdAt": 1604926557861
+      "createdAt": 1604941849502
     },
     {
-      "id": "6dst1fk3s",
+      "id": "yg3es9n0k",
       "title": "your book title",
-      "author": "your book author",
+      "author": "book author",
       "cover": "",
       "about": "",
       "variation": 0,
-      "createdAt": 1604926562417
-    },
-    {
-      "id": "cem15rvy9",
-      "title": "your book title",
-      "author": "your book author",
-      "cover": "",
-      "about": "",
-      "variation": 0,
-      "createdAt": 1604926565263
-    },
-    {
-      "id": "aj6ei69eu",
-      "title": "your book title",
-      "author": "your book author",
-      "cover": "",
-      "about": "",
-      "variation": 0,
-      "createdAt": 1604926567828
-    },
-    {
-      "id": "n10yclj8a",
-      "title": "your book title",
-      "author": "your book author",
-      "cover": "",
-      "about": "",
-      "variation": 0,
-      "createdAt": 1604926570348
-    },
-    {
-      "id": "5ac1rzrew",
-      "title": "your book title",
-      "author": "your book author",
-      "cover": "",
-      "about": "",
-      "variation": 0,
-      "createdAt": 1604926572688
-    },
-    {
-      "id": "8grifevpv",
-      "title": "your book title",
-      "author": "your book author",
-      "cover": "",
-      "about": "",
-      "variation": 0,
-      "createdAt": 1604926574837
-    },
-    {
-      "id": "72uxywutb",
-      "title": "your book title",
-      "author": "your book author",
-      "cover": "",
-      "about": "",
-      "variation": 0,
-      "createdAt": 1604926576997
-    },
-    {
-      "id": "pwdq8azq7",
-      "title": "your book title",
-      "author": "your book author",
-      "cover": "",
-      "about": "",
-      "variation": 0,
-      "createdAt": 1604926579044
-    },
-    {
-      "id": "3prvurnnk",
-      "title": "your book title",
-      "author": "your book author",
-      "cover": "",
-      "about": "",
-      "variation": 0,
-      "createdAt": 1604926581576
-    },
-    {
-      "id": "codxia6be",
-      "title": "your book title",
-      "author": "your book author",
-      "cover": "",
-      "about": "",
-      "variation": 0,
-      "createdAt": 1604926583612
-    },
-    {
-      "id": "x5vkghc6n",
-      "title": "your book title",
-      "author": "your book author",
-      "cover": "",
-      "about": "",
-      "variation": 0,
-      "createdAt": 1604926586683
-    },
-    {
-      "id": "fx42aal8t",
-      "title": "your book title",
-      "author": "your book author",
-      "cover": "",
-      "about": "",
-      "variation": 0,
-      "createdAt": 1604926588663
-    },
-    {
-      "id": "i1fnx2ic8",
-      "title": "your book title",
-      "author": "your book author",
-      "cover": "",
-      "about": "",
-      "variation": 0,
-      "createdAt": 1604926590587
+      "createdAt": 1604942361039
     }
   ]
 }
