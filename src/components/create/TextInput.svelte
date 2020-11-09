@@ -9,6 +9,9 @@
   textarea {
     height: 120px;
   }
+  span {
+    color: #6a0561;
+  }
 </style>
 
 <label for={name}>

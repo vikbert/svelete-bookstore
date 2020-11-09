@@ -18,15 +18,23 @@
 
 <style>
   .detail {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(40%, 20rem));
-    grid-template-rows: minmax(64%, 32rem) auto;
-    gap: var(--spacingXLarge);
-  }
-  .cover {
     display: flex;
-    position: relative;
-    margin-bottom: var(--spacingXLarge);
+    flex-wrap: wrap;
+  }
+
+  .cover {
+    display: grid;
+    grid-template-columns: minmax(100%, 10rem);
+    grid-template-rows: minmax(220%, 16rem);
+
+    flex-shrink: 0;
+    width: 240px;
+    padding-right: 3rem;
+  }
+  .about {
+    flex-grow: 1;
+    max-width: 50rem;
+    max-height: 40rem;
   }
 </style>
 

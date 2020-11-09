@@ -41,25 +41,21 @@
 
 <style>
   form {
-    display: grid;
-    grid-auto-rows: auto;
-    grid-template-columns: 1fr;
-    gap: var(--spacingXLarge);
+    display: flex;
+    flex-wrap: wrap;
   }
   .fields {
-    display: grid;
-    grid-auto-rows: auto;
-    gap: var(--spacingMedium);
+    flex-grow: 1;
+    padding-right: 5rem;
   }
   .preview {
-    display: grid;
-    grid-template-columns: minmax(20vw, 10rem);
-    grid-template-rows: minmax(32vw, 16rem);
+    width: 24rem;
+    flex-shrink: 0;
   }
-  @media (min-width: 48rem) {
-    form {
-      grid-template-columns: 60vw 20vw;
-    }
+  .cover {
+    display: grid;
+    grid-template-columns: minmax(100%, 10rem);
+    grid-template-rows: minmax(220%, 16rem);
   }
 </style>
 
@@ -90,9 +86,9 @@
         type="submit"
         id="button-submit">SAVE</button>
     </div>
-    <div>
+    <div class="preview">
       <Header>Preview</Header>
-      <div class="preview">
+      <div class="cover">
         <Cover interactive={false} book={data} />
       </div>
     </div>
