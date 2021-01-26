@@ -15,10 +15,8 @@
 
 ---
 
-<div align="center">
-
-![bookstore](img/bookstore.png)
-
+<div align='center'>
+<img src="img/bookstore.png" width="500px" alt="pixss" />
 </div>
 
 
