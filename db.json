@@ -64,31 +64,22 @@
       "createdAt": 1604941356011
     },
     {
-      "id": "284453738",
-      "title": "your book title",
-      "author": "your book author",
+      "id": "spshyt61g",
+      "title": "The Pragmatic Programmer",
+      "author": "David Thomas",
       "cover": "",
-      "about": "another descripiton",
+      "about": "The Pragmatic Programmer is one of those rare tech books you’ll read, re-read, and read again over the years. Whether you’re new to the field or an experienced practitioner, you’ll come away with fresh insights each and every time. Dave Thomas and Andy Hunt wrote the first edition of this influential book in 1999 to help their clients create better software and rediscover the joy of coding. These lessons have helped a generation of programmers examine the very essence of software development, independent of any particular language, framework, or methodology, and the Pragmatic philosophy has spawned hundreds of books, screencasts, and audio books, as well as thousands of careers and success stories",
       "variation": 0,
-      "createdAt": 1611699789448
+      "createdAt": 1611700937641
     },
     {
-      "id": "v0ykicmfk",
-      "title": "your book title",
-      "author": "your book author",
+      "id": "6na7bq82a",
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
       "cover": "",
-      "about": "some description",
+      "about": "Clean Code is divided into three parts. The first describes the principles, patterns, and practices of writing clean code. The second part consists of several case studies of increasing complexity. Each case study is an exercise in cleaning up code—of transforming a code base that has some problems into one that is sound and efficient. The third part is the payoff: a single chapter containing a list of heuristics and “smells” gathered while creating the case studies. The result is a knowledge base that describes the way we think when we write, read, and clean code.",
       "variation": 0,
-      "createdAt": 1611699796317
-    },
-    {
-      "id": "lo5af4ohf",
-      "title": "your book title",
-      "author": "your book author",
-      "cover": "",
-      "about": "fooar",
-      "variation": 0,
-      "createdAt": 1611699802611
+      "createdAt": 1611700962938
     }
   ]
 }
