@@ -62,6 +62,33 @@
       "about": "This book also includes a catalog of twenty-four dependency-breaking techniques that help you work with program elements in isolation and make safer changes.",
       "variation": 0,
       "createdAt": 1604941356011
+    },
+    {
+      "id": "284453738",
+      "title": "your book title",
+      "author": "your book author",
+      "cover": "",
+      "about": "another descripiton",
+      "variation": 0,
+      "createdAt": 1611699789448
+    },
+    {
+      "id": "v0ykicmfk",
+      "title": "your book title",
+      "author": "your book author",
+      "cover": "",
+      "about": "some description",
+      "variation": 0,
+      "createdAt": 1611699796317
+    },
+    {
+      "id": "lo5af4ohf",
+      "title": "your book title",
+      "author": "your book author",
+      "cover": "",
+      "about": "fooar",
+      "variation": 0,
+      "createdAt": 1611699802611
     }
   ]
 }

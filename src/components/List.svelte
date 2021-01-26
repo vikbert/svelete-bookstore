@@ -24,12 +24,12 @@
   }
 </style>
 
-<section class="hero is-primary">
-  <div class="hero-content">
-    <h3>Top Coding Book</h3>
+<div class="hero is-primary">
+  <div class="container py-2">
+    <h1>Top Coding Book</h1>
     <span>The best books for programmers</span>
   </div>
-</section>
+</div>
 <div class="container">
   <ButtonBack path={'/create'} text={'Add a new book'} />
   {#if books.length === 0}

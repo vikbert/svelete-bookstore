@@ -60,7 +60,7 @@
 </style>
 
 <section class="hero is-primary">
-  <div class="flex-centered">
+  <div class="container py-2">
     <h3>Add New Book</h3>
   </div>
 </section>
