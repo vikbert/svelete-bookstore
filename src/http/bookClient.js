@@ -1,6 +1,6 @@
 const API_URL = __myapp.env.isProd
   ? __myapp.env.API_URL
-  : 'http://localhost:3333/books';
+  : 'https://my-json-server.typicode.com/vikbert/jsonfaker/books';
 
 export function httpGet(path) {
   return request(path, 'GET');
