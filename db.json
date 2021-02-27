@@ -80,6 +80,33 @@
       "about": "Clean Code is divided into three parts. The first describes the principles, patterns, and practices of writing clean code. The second part consists of several case studies of increasing complexity. Each case study is an exercise in cleaning up code—of transforming a code base that has some problems into one that is sound and efficient. The third part is the payoff: a single chapter containing a list of heuristics and “smells” gathered while creating the case studies. The result is a knowledge base that describes the way we think when we write, read, and clean code.",
       "variation": 0,
       "createdAt": 1611700962938
+    },
+    {
+      "id": "ptyr3u8b7",
+      "title": "your book title",
+      "author": "your book author",
+      "cover": "asdfadsf",
+      "about": "sdfadsf",
+      "variation": 0,
+      "createdAt": 1614416887245
+    },
+    {
+      "id": "g0n4lzdst",
+      "title": "your book title",
+      "author": "your book author",
+      "cover": "asdfasdf",
+      "about": "asdfasdfa",
+      "variation": 0,
+      "createdAt": 1614416893939
+    },
+    {
+      "id": "p5kbkwcae",
+      "title": "your boasdasdfok title",
+      "author": "your book author",
+      "cover": "asdasdf",
+      "about": "asdfadsf",
+      "variation": 0,
+      "createdAt": 1614416899970
     }
   ]
 }
